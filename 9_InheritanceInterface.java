@@ -1,5 +1,3 @@
-// error
-
 interface Subtraction{
     void sub(int a, int b);
 }
@@ -13,7 +11,7 @@ class operate implements Subtraction, Addition{
     }
     public void add(int a, int b) {
         int sum = a+b;
-        System.out.println("Substraction is : "+sum);
+        System.out.println("Addition is : "+sum);
     }
 }
 

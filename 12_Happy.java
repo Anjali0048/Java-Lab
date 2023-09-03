@@ -1,4 +1,11 @@
-public class HappyNumber  
+
+interface A{
+    interface B{
+        public int isHappyNumber(int sum);
+    }
+}
+
+public class HappyNumber  implements A
 {     
     //isHappyNumber() will determine whether a number is happy or not  
     public static int isHappyNumber(int num){  
@@ -20,9 +27,7 @@ public class HappyNumber
         while(result != 1 && result != 4){  
             result = isHappyNumber(result);  
         }  
-
         
-          
         //Happy number always ends with 1  
         if(result == 1)  
             System.out.println(num + " is a happy number");  

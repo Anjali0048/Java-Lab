@@ -21,9 +21,9 @@ public class Lexico {
 		System.out.println();
 		// Arrays.sort(x);
 		for(int i=0; i<5; i++){
-			for(int j=i+1; i<5; j++){
+			for(int j=i+1; j<5; j++){
 				if(x[i].compareTo(x[j])>0){
-					String temp = x[i];
+		 			String temp = x[i];
 					x[i] = x[j];
 					x[j] = temp;
 				}
