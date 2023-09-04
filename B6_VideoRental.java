@@ -155,7 +155,7 @@ public class VideoMain
 						break;
 					default:
 						System.out.println("Wrong Option");
-				}
+	    		}
 		}
 		in.close();
 	}

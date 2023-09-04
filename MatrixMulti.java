@@ -1,6 +1,3 @@
-
-package Anant;
-
 public class MatrixMultiplication {
 	
 	public static int [][] multiplication(int[][]matrix1, int[][]matrix2)
@@ -38,7 +35,7 @@ public class MatrixMultiplication {
 		}
 			System.out.println();
 	}
-	}
+}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

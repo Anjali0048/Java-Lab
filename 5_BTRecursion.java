@@ -1,5 +1,3 @@
-package Anant;
-
 class TreeNode {
     int val;
     TreeNode left;
@@ -20,12 +18,9 @@ public class binarytree {
             return 0;
         }
         
-        // Recursively calculate the difference for the left and right subtrees
         int leftSum = getDifference(node.left, level + 1);
         int rightSum = getDifference(node.right, level + 1);
         
-        // If it's an even level, subtract the right subtree sum from the left subtree sum
-        // If it's an odd level, subtract the left subtree sum from the right subtree sum
         if (level % 2 == 0) {
             return leftSum - rightSum + node.val;
         } else {

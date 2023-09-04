@@ -1,5 +1,3 @@
-package javalab;
-
 import java.util.Scanner;
 
 public class sum_matrices{
